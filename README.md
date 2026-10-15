@@ -71,7 +71,7 @@ flowchart LR
 # Average
 ```mermaid
 
-flowchart TB
+flowchart LR
     Start((mulai))
 
     InputArray[/input_array/]

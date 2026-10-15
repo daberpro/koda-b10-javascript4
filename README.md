@@ -5,9 +5,9 @@ flowchart LR
     Start((mulai))
 
     InputArray[/input_array/]
-    CurrentMax[current_max = 0]
-    Cek{"current_max < input[i]"}
-    AssignMaxCurrent["current_max = input[i]"]
+    CurrentMax["current_max = input_array[0]"]
+    Cek{"current_max < input_array[i]"}
+    AssignMaxCurrent["current_max = input_array[i]"]
     
     I[i = 0]
     TambahI[i++]
@@ -40,9 +40,9 @@ flowchart LR
     Start((mulai))
 
     InputArray[/input_array/]
-    CurrentMin[current_min = 0]
-    Cek{"current_min > input[i]"}
-    AssignMaxCurrent["current_min = input[i]"]
+    CurrentMin["current_min = input_array[0]"]
+    Cek{"current_min > input_array[i]"}
+    AssignMaxCurrent["current_min = input_array[i]"]
     
     I[i = 0]
     TambahI[i++]
@@ -79,7 +79,7 @@ flowchart LR
     AvgAssign[average /= input_array.length]
     
     
-    AssignAvg["average += input[i]"]
+    AssignAvg["average += input_array[i]"]
     
     I[i = 0]
     TambahI[i++]

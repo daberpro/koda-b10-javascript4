@@ -71,19 +71,18 @@ flowchart LR
 # Average
 ```mermaid
 
-flowchart LR
+flowchart TB
     Start((mulai))
 
     InputArray[/input_array/]
     Avg[average = 0]
     AvgAssign[average /= input_array.length]
     
-    
     AssignAvg["average += input_array[i]"]
     
     I[i = 0]
     TambahI[i++]
-    CekI{i < data.length}
+    CekI{i < input_array.length}
 
     CetakHasil[/average/]
 

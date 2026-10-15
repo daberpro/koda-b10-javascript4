@@ -1,10 +1,12 @@
-# Max
+# Minitask 1
+
+## Max
 ```mermaid
 
 flowchart LR
     Start((mulai))
 
-    InputArray[/input_array/]
+    InputArray[/"input_array = [number]"/]
     CurrentMax["current_max = input_array[0]"]
     Cek{"current_max < input_array[i]"}
     AssignMaxCurrent["current_max = input_array[i]"]
@@ -33,13 +35,13 @@ flowchart LR
 
 ```
 
-# Min
+## Min
 ```mermaid
 
 flowchart LR
     Start((mulai))
 
-    InputArray[/input_array/]
+    InputArray[/"input_array = [number]"/]
     CurrentMin["current_min = input_array[0]"]
     Cek{"current_min > input_array[i]"}
     AssignMaxCurrent["current_min = input_array[i]"]
@@ -68,15 +70,16 @@ flowchart LR
 
 ```
 
-# Average
+## Average
 ```mermaid
 
 flowchart LR
     Start((mulai))
 
-    InputArray[/input_array/]
+    InputArray[/"input_array = [number]"/]
     Avg[average = 0]
     AvgAssign[average /= input_array.length]
+    
     
     AssignAvg["average += input_array[i]"]
     
